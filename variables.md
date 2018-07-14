@@ -1,10 +1,10 @@
 # Variables
 
-Let's assume for a second that you've never heard of JavaScript, you don't know the terminology or the syntax, you're basically starting from scratch. This page presents the most basic stuff you'll encounter. 
+Let's assume for a second that you've never heard of JavaScript, you don't know the terminology or the syntax, you're basically starting from scratch. This page presents the most basic stuff you'll encounter.
 
-### Variables
+## Variables
 
-A _variable_ is a "container" for data, that can change \(which is why it's "variable", get it?\). Variables are _declared_ by giving them a _variable name_, as well as _value_ \(or "content" or "data"\). There are 3 ways to declare a variable: 
+A _variable_ is a "container" for data, that can change \(which is why it's "variable", get it?\). Variables are _declared_ by giving them a _variable name_, as well as _value_ \(or "content" or "data"\). There are 3 ways to declare a variable:
 
 ```javascript
 // the "var" keyword is not really used anymore, but you'll still see it in older
@@ -28,11 +28,9 @@ const notReallyConstant = "I cannot be modified";
 noTreallyConstant = "This will fail";
 ```
 
-Let's break down a single line here to look at the syntax: 
+Let's break down a single line here to look at the syntax:
 
 * `let/var/const` are JavaScript _keywords_ that triggers a new variable to be created. 
 * The _variable name_ also called _identifier_ is created. There are some limitations to identifier names, see this page for more details. 
 * `=` is an _operator_ that means "insert whatever comes after me, into the variable before me" 
-
-
 

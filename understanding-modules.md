@@ -328,7 +328,7 @@ You can also require files from other projects by going up folders. So if I have
 
 I've touched upon publishing in my introduction. Publishing modules is done on NPM \(though the node community wants to enable requires from an HTTP page, that's not doable yet\), and anyone can publish a module, if the name is unique. To "install" a published library you just need to use npm. For example, in the random cat example I use snekfetch, which needs to be installed using `npm install snekfetch`. An installed library doesn't use a "path" or a .js extension so it's `require("snekfetch")` instead of, say, `require("./snekfetch.js")`.
 
-But what if you've made a cool little library like `utils` above and you want everyone to be able to use it just like snekfetch? Then you can do that on NPM! Won't cost you a dime, and it will mean you, or anyone else, can install it as you want. 
+But what if you've made a cool little library like `utils` above and you want everyone to be able to use it just like snekfetch? Then you can do that on NPM! Won't cost you a dime, and it will mean you, or anyone else, can install it as you want.
 
 But, this is a JavaScript and Node guide, and people have expalined it _much_ better than I have! Please see [this guide on npmjs.com](https://docs.npmjs.com/getting-started/publishing-npm-packages)! It should help you out in publishing ;\)
 
